@@ -1,9 +1,9 @@
 class Verifique < Formula
   desc "Verification queue for coding agents"
   homepage "https://verifique.ai"
-  url "https://github.com/smnkgv/verifique/releases/download/v0.2.0/verifique-macos-arm64.tar.gz"
-  version "0.2.0"
-  sha256 "4cb523779f6223cf171d99a9d1cd161b9748a8621e0700c157e297faa0b97f37"
+  url "https://github.com/smnkgv/verifique/releases/download/v0.2.1/verifique-macos-arm64.tar.gz"
+  version "0.2.1"
+  sha256 "be7072cafe247824f90e4bf1107c86386b4cc3509915c459ad16ed5294d8b81e"
   license "Apache-2.0"
 
   depends_on arch: :arm64

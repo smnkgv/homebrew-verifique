@@ -1,12 +1,12 @@
 cask "verifique-panel" do
-  version "0.3.3"
+  version "0.3.4"
 
   on_arm do
-    sha256 "a1199794f9ef2f464bdfd6ae1f030c2263ed7d2985a2e26e2523b9a933934462"
+    sha256 "9f62b26456d383b6fba9c449d0ad6160ed4503f8aabfe37fd27746d15fe73634"
     url "https://github.com/smnkgv/verifique/releases/download/v#{version}/verifique-panel-macos-arm64.dmg"
   end
   on_intel do
-    sha256 "9c16f34fbaddc33dc6009d916d800204d4ff77555d6ecb049025d0acf21bee05"
+    sha256 "6b9e9702467532cebde12544639f7908d0aaa0b3fbec645bd94f2febf8386fd7"
     url "https://github.com/smnkgv/verifique/releases/download/v#{version}/verifique-panel-macos-x64.dmg"
   end
 

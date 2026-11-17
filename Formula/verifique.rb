@@ -1,28 +1,28 @@
 class Verifique < Formula
   desc "Verification queue for coding agents"
   homepage "https://verifique.ai"
-  version "0.3.5"
+  version "0.3.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/smnkgv/verifique/releases/download/v0.3.5/verifique-macos-arm64.tar.gz"
-      sha256 "00660f5bd105c4f236cb80e184c5a22031eb1ce719dbf9cb7329a31ec51f0021"
+      url "https://github.com/smnkgv/verifique/releases/download/v0.3.6/verifique-macos-arm64.tar.gz"
+      sha256 "68db62fc3de696e828286b110a2c775070c4f8d0d07c658fc156cae2ab026717"
     end
     on_intel do
-      url "https://github.com/smnkgv/verifique/releases/download/v0.3.5/verifique-macos-x64.tar.gz"
-      sha256 "0bcc2afc3f8d17276eb46cda4a6cde19f8e1d2b030b638571dc0c6aa3d1fbfd3"
+      url "https://github.com/smnkgv/verifique/releases/download/v0.3.6/verifique-macos-x64.tar.gz"
+      sha256 "a55e75bf96b3124c8013deb34035c7d456b9fd5fe8b1ca52dc9d0eb635b0ecfb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/smnkgv/verifique/releases/download/v0.3.5/verifique-linux-arm64.tar.gz"
-      sha256 "ab9ddd4b41821ebc19b443dc76628d75f97c30026da47bdce98d377471963dd1"
+      url "https://github.com/smnkgv/verifique/releases/download/v0.3.6/verifique-linux-arm64.tar.gz"
+      sha256 "991dc15b3647879b71e3626b05c7517208d0971f0543d2772a7c50453eced928"
     end
     on_intel do
-      url "https://github.com/smnkgv/verifique/releases/download/v0.3.5/verifique-linux-x64.tar.gz"
-      sha256 "c702734b9a6a697f00a6de4b9dcd3ff93a743ce5db92a1ab1917882fefd02f75"
+      url "https://github.com/smnkgv/verifique/releases/download/v0.3.6/verifique-linux-x64.tar.gz"
+      sha256 "75b70538ab5c4c985fbf147a3826e12c60538b7594ac84b69f0e1e2cd45fc45f"
     end
   end
 
